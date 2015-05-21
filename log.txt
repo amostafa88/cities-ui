@@ -1,0 +1,2 @@
+FAILED
+Error performing request: Get https://api.ng.bluemix.net/v2/spaces/88714625-5af2-40bf-ad9b-f9ffcec43366/apps?q=name%!A(MISSING)cities-ui&inline-relations-depth=1: Proxy Authorization Required

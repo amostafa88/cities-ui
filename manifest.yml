@@ -1,0 +1,10 @@
+---
+applications:
+- name: cities-ui
+  memory: 128M
+  instances: 1
+  path: target/cities-ui-0.0.1-SNAPSHOT.war
+  timeout: 180
+  services: [ cities-ws ]
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
